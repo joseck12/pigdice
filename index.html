@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>pigdice</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+
+<head>
+  <title>pigdice</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <h1><i>Lets Play! PigDice</h1>
-      <h2><i>Instructions</i></h2>
-    <div id="pig1" class="dice">0</div>
-    <div id="pig2" class="dice">0</div>
-    <button onclick="throwDice()">Throw Dice</button>
-    <h3 id= "result"></h3>
-   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+  <div class="row">
+    <div class="column">
+      <div class="jumbotron">
+  <h1><i>Lets Play! PigDice</h1>
+    </div>
+    <div class="well">
+  <h2><i>Instructions</i></h2>
+  <ol>
+    <li>First player throws the dice by pressing the 'Throw dice' button.If<br>a.)Any of the two dices stops at <b>1</b> they lose and its the next player's turn<br>b.)Both dices stop at a <b>similar</b> number,the player wins a free throw.<br>c.)Dice
+      1 stops at a number equal to or greater than 4,the player wins 2 points to their score.<br>d.)Dice 2 stops at a number less than 4,the player loses 2 points.</li>
+    <li>The first player to reach a total of 100 points wins the game.</li>
+  </ol>
+  </div>
+  </div>
+  <div class="column">
+  <div id="pig1" class="dice">0</div>
+  <div id="pig2" class="dice">0</div>
+  <button onclick="throwDice()">Throw Dice</button><br>
+  <p id="result"></p>
+  </div>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="js/scripts.js"></script>
-  </body>
+</body>
+
 </html>

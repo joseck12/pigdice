@@ -15,9 +15,9 @@
      result.innerHTML += "DOUBLES! Free turn.Throw again!!";
    }
    else if (p1 >= 4) {
-     result.innerHTML += "CONGRATULATIONS!! You won 2 extra points";
+     result.innerHTML += "CONGRATS!! You won 2 extra points";
    }
-   else if (p2 <= 4) {
+   else if (p2 < 4) {
      result.innerHTML += "OOPS!! You lost 2 points";
    }
  }
