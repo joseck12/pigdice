@@ -1,3 +1,6 @@
+.jumbotron{
+  background-color: #48C9B0;
+}
 h1 {
   color: blue;
 }
@@ -9,7 +12,7 @@ h3 {
 div.dice {
   float: left;
   width: 42px;
-  background-color: red;
+  background-color: #EC7063;
   font-size: 24px;
   text-align: center;
   margin: 10px;
@@ -17,10 +20,10 @@ div.dice {
 
 ol {
   text-align: justify;
-  color: black;
+  color: #8E44AD;
 }
 
-.instruct {
+.col-sm-7 {
   font-size: 15px;
   border-style: solid;
   border-radius: 20px;
@@ -31,6 +34,18 @@ ol {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #ABB2B9;
+}
+.col-sm-5 {
+  font-size: 15px;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  border: 2 2 2 2;
+  margin-left: 28%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #7FB3D5;
 }
 
 body {
