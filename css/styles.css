@@ -1,22 +1,26 @@
-h1{
+h1 {
   color: blue;
 }
-h3{
+
+h3 {
   clear: left;
 }
-div.dice{
-  float:left;
-  width:42px;
+
+div.dice {
+  float: left;
+  width: 42px;
   background-color: red;
   font-size: 24px;
   text-align: center;
   margin: 10px;
 }
-ol{
+
+ol {
   text-align: justify;
   color: black;
 }
-.instruct{
+
+.instruct {
   font-size: 15px;
   border-style: solid;
   border-radius: 20px;
@@ -26,8 +30,9 @@ ol{
   margin-right: 20%;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: blue;
+  background-color: #ABB2B9;
 }
-body{
+
+body {
   background-color: #A9CCE3;
 }
