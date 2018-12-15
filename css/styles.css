@@ -1,8 +1,10 @@
-.jumbotron{
+.jumbotron {
   background-color: #48C9B0;
+  background-image: url("https://media1.giphy.com/media/Mpr8nUPtyx7I4/200w.webp?cid=3640f6095c14b94a38762f532ec2ef86");
 }
+
 h1 {
-  color: blue;
+  color: white;
 }
 
 h3 {
@@ -35,6 +37,7 @@ ol {
   margin-bottom: 10px;
   background-color: #ABB2B9;
 }
+
 .col-sm-5 {
   font-size: 15px;
   border-style: solid;
