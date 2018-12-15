@@ -14,5 +14,20 @@ div.dice{
 }
 ol{
   text-align: justify;
-  color: red;
+  color: black;
+}
+.instruct{
+  font-size: 15px;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  border: 2 2 2 2;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: blue;
+}
+body{
+  background-color: #85C1E9;
 }
