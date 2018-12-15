@@ -14,7 +14,7 @@
    else if(p1 === p2) {
      result.innerHTML += "DOUBLES! Free turn.Throw again!!";
    }
-   else if (p1 >= 4) {
+   else if (p1 > 4) {
      result.innerHTML += "CONGRATS!! You won 2 extra points";
    }
    else if (p2 < 4) {
