@@ -1,5 +1,4 @@
 .jumbotron {
-  background-color: #48C9B0;
   background-image: url("https://media0.giphy.com/media/3ohhwLh5dw0i7iLzOg/100.webp?cid=3640f6095c1735c361386a32452e91d0");
 }
 
@@ -14,7 +13,7 @@ h3 {
 div.dice {
   float: left;
   width: 42px;
-  background-color: #EC7063;
+  background-color: #A9CCE3;
   font-size: 24px;
   text-align: center;
   margin: 10px;
@@ -22,7 +21,6 @@ div.dice {
 
 ol {
   text-align: justify;
-  color: #8E44AD;
 }
 
 .col-sm-7 {
@@ -48,7 +46,7 @@ ol {
   margin-right: 20%;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #7FB3D5;
+  background-color: #ABB2B9;
 }
 
 body {
